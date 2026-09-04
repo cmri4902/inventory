@@ -14,10 +14,12 @@ iframe {display: block; width: 100%; background: #EEF1EA;}
 """, unsafe_allow_html=True)
 
 pages = {
-    "Xulab Inventory": [
+  "CMRI 4902 Inventory": [
         st.Page("app_pages/home.py", title="Home", icon="🏠", default=True),
         st.Page("app_pages/chemical_inventory.py", title="Chemical Inventory", icon="🧪"),
         st.Page("app_pages/cell_inventory.py", title="Cell Inventory", icon="🧫"),
+        st.Page("app_pages/antibody_inventory.py", title="Antibody Inventory", icon="🧬"),
+        st.Page("app_pages/dna_plasmid_inventory.py", title="DNA Plasmid Inventory", icon="🧬"),
     ]
 }
 
