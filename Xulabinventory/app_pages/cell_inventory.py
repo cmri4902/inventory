@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_PATH = os.path.join(BASE_DIR, "templates", "cell_template.html")
 
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1Ezga1klNnOzxdRa-8rgWEQhAqDztvxok_qHcyuqu0MY/export?format=csv"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1ap0EvL6alMnY_4vCFELNLhz_jpVVLE-TB5Ilsq3YtVE/edit?gid=236254838#gid=236254838"
 
 
 @st.cache_data(ttl=60)

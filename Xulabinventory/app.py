@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Xulab Inventory", layout="wide")
+st.set_page_config(page_title="CMRI 4902 Inventory", layout="wide")
 
 st.markdown("""
 <style>

@@ -13,7 +13,7 @@ TEMPLATE_PATH = os.path.join(BASE_DIR, "templates", "chemical_template.html")
 
 @st.cache_data(ttl=60)
 def load_data():
-    sheet_url = "https://docs.google.com/spreadsheets/d/1Vw0FgVxmjveS0k6KJYtrh0G5pVIMIqE_6unkUcSXNIg/export?format=csv&gid=1293947143"
+    sheet_url = "https://docs.google.com/spreadsheets/d/1qD94CY2In6Xh9N4Ihb_tjqxNE_W2OJZOuCuNl7bHJlE/edit?pli=1&gid=0#gid=0"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
     return pd.read_csv(sheet_url, storage_options=headers).fillna("")
 
